@@ -1,0 +1,62 @@
+.upcomingWrapp {
+    .webix_template {
+        padding: 12px 12px 0;
+    }
+}
+
+.upcomingTitle {
+    margin-top: 6px;
+}
+
+.upcomingInner {
+    border-bottom: 1px solid #DADEE0;
+    padding-bottom: 8px;
+}
+
+.upcomingRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.upcomingRowText {
+    font-size: 12px;
+    line-height: 16px;
+    p {
+        margin-top: 0;
+    }
+}
+
+.upcomingInfo {
+    flex-grow: 1;
+    padding-right: 12px;
+}
+
+.upcomingImg {
+    flex-shrink: 0;
+    width: 248px;
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.upcomingIcon {
+    color: #94A1B3;
+    display: flex;
+    margin-right: 8px;
+}
+
+.rate {
+    margin-left: 8px;
+    .mdi {
+        margin-right: 4px;
+    }
+}
+.starFull {
+    color: #FDBF4C;
+}
+
+.starEmpty {
+    color: #BFC6D1;
+}

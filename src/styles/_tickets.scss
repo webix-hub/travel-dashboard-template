@@ -1,0 +1,144 @@
+.ticketsTable {
+    font-size: 12px;
+    .webix_column > div {
+        border-bottom-color: transparent;
+    }
+    &.webix_dtable .webix_ss_header .webix_hcolumn div.webix_last_row {
+        background-color: #fff;
+        border-bottom-color: transparent;
+        color: #94A1B3;
+    }
+}
+
+.ticketWrapp {
+    .webix_template {
+        padding: 12px 12px 0;
+    }
+}
+
+.ticketInner {
+    border-bottom: 1px solid #DADEE0;
+    padding-bottom: 8px;
+}
+
+.ticketHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.ticketRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.ticketIcon {
+    color: #94A1B3;
+    display: flex;
+    margin-right: 4px;
+}
+
+.ticketSmText {
+    font-size: 12px;
+}
+
+.ticketIconBlock {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    &:last-of-type {
+        margin-right: 0;
+    }
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    img {
+        margin-right: 8px;
+        width: 24px;
+    }
+}
+
+.departureBlock, .arrivalBlock {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.departureBlock {
+    margin-right: 20px;
+    align-items: flex-start;
+}
+
+.arrivalBlock {
+    margin-left: 20px;
+    align-items: flex-end;
+}
+
+.flightWrapp {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.flightBlock {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.flightTime {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.flightImg {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.flightDashed {
+    background: repeating-linear-gradient(
+        90deg,
+        #BFC6D1,
+        #BFC6D1 10px,
+        #FFFFFF 10px,
+        #FFFFFF 20px
+    );
+    background-position-x: 12px;
+    flex-grow: 1;
+    height: 2px;
+    margin: auto 0;
+}
+
+.airplaneIcon {
+    color: #94A1B3;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+
+.airportCode {
+    color: #1CA1C1;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.time {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.city {
+    color: #94A1B3;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.date {
+    color: #94A1B3;
+    font-size: 12px;
+}

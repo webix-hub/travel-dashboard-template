@@ -1,0 +1,55 @@
+@import "header";
+@import "sidebar";
+@import "userTemplate";
+@import "bookingHistory";
+@import "activities";
+@import "upcomingTrips";
+@import "tickets";
+
+.pointer {
+    cursor: pointer;
+}
+
+.bgWhite {
+    background: #fff;
+}
+
+.bgLight {
+    background: #dadee0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flexCol {
+    flex-direction: column;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.strong {
+    font-weight: 500;
+}
+
+.textLight {
+    color: #94A1B3;
+}
+
+.textPale {
+    color: #BFC6D1;
+}
+
+.ellipsis {
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.subTitle {
+    display: block;
+    padding-top: 10px;
+}
